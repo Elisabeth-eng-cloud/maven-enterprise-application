@@ -23,4 +23,21 @@
 
 <sonar.password>admin123</sonar.password> 
   </properties>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>FEWA IT CONSULTING Releases Nexus Repository</name>
+	  
+        http://3.140.185.82:8081/repository/Fewa-releases/<url></url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>FEWA IT CONSULTING Snapshot Nexus Repository </name>
+	      <url></url>http://3.140.185.82:8081/repository/Fewa-snapshots/
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+
+  
 </project>
